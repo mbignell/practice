@@ -10,9 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var fileController: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        textField.becomeFirstResponder()
+        fileController.layer.cornerRadius = 8.0
+        fileController.clipsToBounds = true
+        fileController.layer.borderWidth = 1.5
+        fileController.layer.borderColor = borderColor.CGColor
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,5 +30,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func onDonePress(sender: AnyObject) {
+        
+    }
+    
 }
 

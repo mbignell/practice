@@ -14,6 +14,12 @@
 		4D4841B51BC6368200F9F8E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4841B31BC6368200F9F8E7 /* LaunchScreen.storyboard */; };
 		4D4841C01BC6368300F9F8E7 /* musicProtoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4841BF1BC6368300F9F8E7 /* musicProtoTests.swift */; };
 		4D4841CB1BC6368300F9F8E7 /* musicProtoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4841CA1BC6368300F9F8E7 /* musicProtoUITests.swift */; };
+		4D79DD111C783100008B3664 /* GlobalColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D79DD101C783100008B3664 /* GlobalColors.swift */; };
+		4D79DD131C78A453008B3664 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D79DD121C78A453008B3664 /* HomeViewController.swift */; };
+		4D79DD151C78AB95008B3664 /* SettingsModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D79DD141C78AB95008B3664 /* SettingsModal.swift */; };
+		4D79DD171C78CFFA008B3664 /* onMoreTapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D79DD161C78CFFA008B3664 /* onMoreTapViewController.swift */; };
+		4DFE2A771BF2529E005C20D0 /* SongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE2A761BF2529E005C20D0 /* SongViewController.swift */; };
+		4DFE2A791BF25354005C20D0 /* IndividualRecordingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE2A781BF25354005C20D0 /* IndividualRecordingTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		4D4841C61BC6368300F9F8E7 /* musicProtoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = musicProtoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D4841CA1BC6368300F9F8E7 /* musicProtoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicProtoUITests.swift; sourceTree = "<group>"; };
 		4D4841CC1BC6368300F9F8E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D79DD101C783100008B3664 /* GlobalColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalColors.swift; sourceTree = "<group>"; };
+		4D79DD121C78A453008B3664 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = musicProto/HomeViewController.swift; sourceTree = "<group>"; };
+		4D79DD141C78AB95008B3664 /* SettingsModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsModal.swift; path = musicProto/SettingsModal.swift; sourceTree = "<group>"; };
+		4D79DD161C78CFFA008B3664 /* onMoreTapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = onMoreTapViewController.swift; path = musicProto/onMoreTapViewController.swift; sourceTree = "<group>"; };
+		4DFE2A761BF2529E005C20D0 /* SongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongViewController.swift; sourceTree = "<group>"; };
+		4DFE2A781BF25354005C20D0 /* IndividualRecordingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndividualRecordingTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,9 @@
 		4D48419E1BC6368200F9F8E7 = {
 			isa = PBXGroup;
 			children = (
+				4D79DD141C78AB95008B3664 /* SettingsModal.swift */,
+				4D79DD161C78CFFA008B3664 /* onMoreTapViewController.swift */,
+				4D79DD121C78A453008B3664 /* HomeViewController.swift */,
 				4D4841A91BC6368200F9F8E7 /* musicProto */,
 				4D4841BE1BC6368300F9F8E7 /* musicProtoTests */,
 				4D4841C91BC6368300F9F8E7 /* musicProtoUITests */,
@@ -100,6 +115,9 @@
 				4D4841AA1BC6368200F9F8E7 /* AppDelegate.swift */,
 				4D4841AC1BC6368200F9F8E7 /* ViewController.swift */,
 				4D4841AE1BC6368200F9F8E7 /* Main.storyboard */,
+				4D79DD101C783100008B3664 /* GlobalColors.swift */,
+				4DFE2A781BF25354005C20D0 /* IndividualRecordingTableViewCell.swift */,
+				4DFE2A761BF2529E005C20D0 /* SongViewController.swift */,
 				4D4841B11BC6368200F9F8E7 /* Assets.xcassets */,
 				4D4841B31BC6368200F9F8E7 /* LaunchScreen.storyboard */,
 				4D4841B61BC6368200F9F8E7 /* Info.plist */,
@@ -258,8 +276,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DFE2A771BF2529E005C20D0 /* SongViewController.swift in Sources */,
 				4D4841AD1BC6368200F9F8E7 /* ViewController.swift in Sources */,
+				4D79DD111C783100008B3664 /* GlobalColors.swift in Sources */,
+				4DFE2A791BF25354005C20D0 /* IndividualRecordingTableViewCell.swift in Sources */,
+				4D79DD171C78CFFA008B3664 /* onMoreTapViewController.swift in Sources */,
 				4D4841AB1BC6368200F9F8E7 /* AppDelegate.swift in Sources */,
+				4D79DD151C78AB95008B3664 /* SettingsModal.swift in Sources */,
+				4D79DD131C78A453008B3664 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +508,7 @@
 				4D4841D11BC6368300F9F8E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D4841D21BC6368300F9F8E7 /* Build configuration list for PBXNativeTarget "musicProtoTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +517,7 @@
 				4D4841D41BC6368300F9F8E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D4841D51BC6368300F9F8E7 /* Build configuration list for PBXNativeTarget "musicProtoUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +526,7 @@
 				4D4841D71BC6368300F9F8E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
